@@ -62,3 +62,18 @@ ___
     ![Dataset_Manager](https://github.com/user-attachments/assets/e52f9232-a507-4fb4-bbaf-6ebd937842a7)
 
 15. The dataframe ID (e.g., **`df_0`**) can be used as an argument in functions requiring dataset input.
+Here’s a more formalized version of the instructions for giving access to energy RAPL (Running Average Power Limit):
+
+---
+
+### Granting Access to Energy RAPL for Experimentation
+
+To measure energy consumption using RAPL domains, ensure that your system provides the necessary read access to the powercap files. By default, these files are often restricted, and you may need to grant temporary access during experiments.
+
+- **Grant Read Access:**
+   - Use the following command to recursively set read permissions on the directory:
+     ```bash
+     sudo chmod -R +r /sys/class/powercap/
+     ```
+
+   - This command ensures that your user account can access RAPL data during experimentation.
