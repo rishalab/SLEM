@@ -140,30 +140,42 @@
                             <section id="usage-section" class="doc-section">
                                 <h2 class="section-title">Usage</h2>
                                 <ol>
-                                    <li>Navigate to the <span class="highlight">src</span> folder:</li>
+                                    <li>Granting Access to Energy RAPL for Experimentation</li>
+                                    To measure energy consumption using RAPL domains, 
+                                    ensure that your system provides the necessary read access to the powercap files. 
+                                    By default, these files are often restricted, and you may need to grant temporary access during experiments.
                                     <div class="code-container">
                                         <div class="code" id="codeToCopy2">
-                                            cd path/to/SLEM/src
+                                            sudo chmod -R +r /sys/class/powercap/
                                         </div>
                                         <button class="copy-button" onclick="copyCode('codeToCopy2')">
                                             <i class="far fa-clipboard"></i> Copy code
                                         </button>
                                     </div>
-                                    <li>Run the <span class="highlight">main.py</span> file:</li>
+                                    <li>Navigate to the <span class="highlight">src</span> folder:</li>
                                     <div class="code-container">
                                         <div class="code" id="codeToCopy3">
-                                            python3 main.py
+                                            cd path/to/SLEM/src
                                         </div>
                                         <button class="copy-button" onclick="copyCode('codeToCopy3')">
                                             <i class="far fa-clipboard"></i> Copy code
                                         </button>
                                     </div>
-                                    or
+                                    <li>Run the <span class="highlight">main.py</span> file:</li>
                                     <div class="code-container">
                                         <div class="code" id="codeToCopy4">
-                                            python main.py
+                                            python3 main.py
                                         </div>
                                         <button class="copy-button" onclick="copyCode('codeToCopy4')">
+                                            <i class="far fa-clipboard"></i> Copy code
+                                        </button>
+                                    </div>
+                                    or
+                                    <div class="code-container">
+                                        <div class="code" id="codeToCopy5">
+                                            python main.py
+                                        </div>
+                                        <button class="copy-button" onclick="copyCode('codeToCopy5')">
                                             <i class="far fa-clipboard"></i> Copy code
                                         </button>
                                     </div>
