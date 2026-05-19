@@ -1,0 +1,125 @@
+--- Starting Empirical Run Sequence ---
+
+[16:23:41] Booting cell: evaluation.evaluation_scripts.measure_serialization -> json_10MB
+--- RUNNER LOGS ---
+Wrote measurement to evaluation/evaluation_results/measure_serialization_json_10MB.csv
+-------------------
+[16:33:43] Completed cell.
+
+[16:33:43] Booting cell: evaluation.evaluation_scripts.measure_serialization -> orjson_10MB
+--- RUNNER LOGS ---
+Wrote measurement to evaluation/evaluation_results/measure_serialization_orjson_10MB.csv
+-------------------
+[16:43:44] Completed cell.
+
+[16:43:44] Booting cell: evaluation.evaluation_scripts.measure_serialization -> ujson_10MB
+--- RUNNER LOGS ---
+Wrote measurement to evaluation/evaluation_results/measure_serialization_ujson_10MB.csv
+-------------------
+[16:53:45] Completed cell.
+
+[16:53:45] Booting cell: evaluation.evaluation_scripts.measure_serialization -> json_100KB
+--- RUNNER LOGS ---
+Wrote measurement to evaluation/evaluation_results/measure_serialization_json_100KB.csv
+-------------------
+[17:03:46] Completed cell.
+
+[17:03:46] Booting cell: evaluation.evaluation_scripts.measure_serialization -> orjson_100KB
+--- RUNNER LOGS ---
+Wrote measurement to evaluation/evaluation_results/measure_serialization_orjson_100KB.csv
+-------------------
+[17:13:47] Completed cell.
+
+[17:13:47] Booting cell: evaluation.evaluation_scripts.measure_serialization -> ujson_100KB
+--- RUNNER LOGS ---
+Wrote measurement to evaluation/evaluation_results/measure_serialization_ujson_100KB.csv
+-------------------
+[17:23:48] Completed cell.
+
+[17:23:48] Booting cell: evaluation.evaluation_scripts.measure_image -> cv2_resize_512
+--- RUNNER LOGS ---
+Wrote measurement to evaluation/evaluation_results/measure_image_cv2_resize_512.csv
+-------------------
+[17:33:49] Completed cell.
+
+[17:33:49] Booting cell: evaluation.evaluation_scripts.measure_image -> pil_resize_512
+--- RUNNER LOGS ---
+Wrote measurement to evaluation/evaluation_results/measure_image_pil_resize_512.csv
+-------------------
+[17:43:50] Completed cell.
+
+[17:43:50] Booting cell: evaluation.evaluation_scripts.measure_image -> cv2_resize_2048
+--- RUNNER LOGS ---
+Wrote measurement to evaluation/evaluation_results/measure_image_cv2_resize_2048.csv
+-------------------
+[17:53:50] Completed cell.
+
+[17:53:50] Booting cell: evaluation.evaluation_scripts.measure_image -> pil_resize_2048
+--- RUNNER LOGS ---
+Wrote measurement to evaluation/evaluation_results/measure_image_pil_resize_2048.csv
+-------------------
+[18:03:53] Completed cell.
+
+[18:03:53] Booting cell: evaluation.evaluation_scripts.measure_data -> pandas_groupby
+--- RUNNER LOGS ---
+Exception occurred:'education'
+Exception occurred:'education'
+Exception occurred:'education'
+Exception occurred:'education'
+Exception occurred:'education'
+Exception occurred:'education'
+Exception occurred:'education'
+Exception occurred:'education'
+Exception occurred:'education'
+Exception occurred:'education'
+Exception occurred:'education'
+Exception occurred:'education'
+Exception occurred:'education'
+Exception occurred:'education'
+Exception occurred:'education'
+Exception occurred:'education'
+Exception occurred:'education'
+Exception occurred:'education'
+Exception occurred:'education'
+Exception occurred:'education'
+Wrote measurement to evaluation/evaluation_results/measure_data_pandas_groupby.csv
+-------------------
+[18:03:53] Completed cell.
+
+[18:03:53] Booting cell: evaluation.evaluation_scripts.measure_data -> polars_groupby
+--- RUNNER LOGS ---
+Exception occurred:education
+Exception occurred:education
+Exception occurred:education
+Exception occurred:education
+Exception occurred:education
+Exception occurred:education
+Exception occurred:education
+Exception occurred:education
+Exception occurred:education
+Exception occurred:education
+Exception occurred:education
+Exception occurred:education
+Exception occurred:education
+Exception occurred:education
+Exception occurred:education
+Exception occurred:education
+Exception occurred:education
+Exception occurred:education
+Exception occurred:education
+Exception occurred:education
+Wrote measurement to evaluation/evaluation_results/measure_data_polars_groupby.csv
+-------------------
+[18:03:53] Completed cell.
+
+[18:03:53] Booting cell: evaluation.evaluation_scripts.measure_data -> pandas_dropna
+--- RUNNER LOGS ---
+Wrote measurement to evaluation/evaluation_results/measure_data_pandas_dropna.csv
+-------------------
+[18:13:54] Completed cell.
+
+[18:13:54] Booting cell: evaluation.evaluation_scripts.measure_data -> polars_dropna
+--- RUNNER LOGS ---
+Wrote measurement to evaluation/evaluation_results/measure_data_polars_dropna.csv
+-------------------
+[18:23:54] Completed cell.
